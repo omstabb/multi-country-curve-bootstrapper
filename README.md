@@ -1,2 +1,2 @@
 # multi-country-curve-bootstrapper
-Sovereign yield curve bootstrapping across multiple markets (CAD, USD, EUR, ...) from live market quotes.
+A Python framework for constructing bootstrapped zero curves from sovereign bond and money market quotes across multiple countries. Started as a Government of Canada curve builder with Bank of Canada Valet API integration, and is being extended to additional markets with country-specific conventions (day counts, compounding, settlement). Outputs discount factors, zero rates, and forward curves suitable for downstream derivatives pricing.
